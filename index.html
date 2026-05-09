@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบตารางเรียน - โรงเรียนบ้านสระสี่เหลี่ยม</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Sarabun', sans-serif; background-color: #f1f5f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; color: #1e293b; }
+        .card { background: white; border-radius: 1.5rem; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; max-width: 28rem; width: 100%; border: 1px solid #e2e8f0; }
+        .card-header { background-color: #2563eb; padding: 2.5rem; text-align: center; color: white; }
+        .card-header h1 { margin: 0 0 0.5rem 0; font-size: 1.875rem; }
+        .card-header p { margin: 0; opacity: 0.8; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .card-body { padding: 2rem; display: flex; flex-direction: column; gap: 1rem; }
+        .link-btn { display: flex; align-items: center; padding: 1.25rem; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 1rem; text-decoration: none; color: #334155; transition: all 0.2s ease; }
+        .link-btn:hover { border-color: #2563eb; background-color: #eff6ff; transform: translateY(-2px); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .link-btn.green:hover { border-color: #059669; background-color: #ecfdf5; }
+        .icon { font-size: 1.5rem; margin-right: 1rem; }
+        .text-bold { font-size: 1.25rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h1>โรงเรียนบ้านสระสี่เหลี่ยม</h1>
+            <p>ระบบตารางเรียนตารางสอน</p>
+        </div>
+        <div class="card-body">
+            <a href="v01_subgroups_days_vertical.html" class="link-btn">
+                <span class="icon">📅</span>
+                <span class="text-bold">ตารางเรียนรายชั้นเรียน</span>
+            </a>
+            <a href="v01_teachers_days_vertical.html" class="link-btn green">
+                <span class="icon">👨‍🏫</span>
+                <span class="text-bold">ตารางสอนรายบุคคล</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
